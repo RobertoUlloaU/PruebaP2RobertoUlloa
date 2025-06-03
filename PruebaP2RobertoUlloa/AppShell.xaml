@@ -18,6 +18,6 @@
 
     <ShellContent
     Title="Mi Informacion"
-    ContentTemplate="{DataTemplate local:GirdlLayout}"
-    Route="GridLayout />
+    ContentTemplate="{DataTemplate local:AboutPage}"
+    Route="AboutPage" />
 </Shell>

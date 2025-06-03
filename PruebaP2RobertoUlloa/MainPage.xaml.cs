@@ -18,7 +18,7 @@
 
         private async void OnAboutClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new GridLayout());
+            await Navigation.PushAsync(new AboutPage());
         }
 
     }
