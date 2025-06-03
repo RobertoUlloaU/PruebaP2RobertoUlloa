@@ -8,8 +8,8 @@
     Title="PruebaP2RobertoUlloa">
 
     <ShellContent
-        Title="Home"
+        Title="Welcome"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="Bienvenido" />
 
 </Shell>

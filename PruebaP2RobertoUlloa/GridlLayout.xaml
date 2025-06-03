@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaP2RobertoUlloa.GirdlLayout"
+                      Title="Grid Layout">
+    <Grid RowDefinitions="*,*"
+      ColumnDefinitions="*,*">
+
+        <!-- Primer cuadro -->
+        <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Red">
+            <Label Text="Nombre: Roberto Ulloa"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="White"/>
+        </Grid>
+
+        <!-- Segundo cuadro -->
+        <Grid Grid.Row="0" Grid.Column="1" BackgroundColor="Green">
+            <Label Text="Fecha: 2025/06/03"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="White"/>
+        </Grid>
+
+        <!-- Tercer cuadro -->
+        <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="Blue">
+            <Label Text="Intereses: Videojuegos"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="White"/>
+        </Grid>
+
+        <!-- Cuarto cuadro con boton -->
+        <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Versión: 1.0"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+                <Button Text="Regresar" Clicked="OnBackButtonClicked" />S
+            </StackLayout>
+        </Grid>
+    </Grid>
+
+</ContentPage>
