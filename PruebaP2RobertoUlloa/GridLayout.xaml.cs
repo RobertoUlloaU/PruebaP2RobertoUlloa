@@ -8,6 +8,6 @@ public partial class GridLayout : ContentPage
 	}
     private async void OnBackButtonClicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("///ChistePage");
+        await Shell.Current.GoToAsync("///MainPage");
     }
 }

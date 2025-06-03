@@ -10,6 +10,14 @@
     <ShellContent
         Title="Welcome"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="Bienvenido" />
+        Route="MainPage" />
+    <ShellContent
+    Title="Pagina de Chistes"
+    ContentTemplate="{DataTemplate local:ChistePage}"
+    Route="ChistePage" />
 
+    <ShellContent
+    Title="Mi Informacion"
+    ContentTemplate="{DataTemplate local:GirdlLayout}"
+    Route="GridLayout />
 </Shell>
