@@ -63,16 +63,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="GridlLayout.xaml.cs">
-	    <DependentUpon>GridlLayout.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="ChistePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="GridlLayout.xaml">
+	  <MauiXaml Update="GridLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
